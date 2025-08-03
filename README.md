@@ -5,11 +5,13 @@
 1. Clone Repository
 
    git clone https://github.com/kampusriset/23g_laravel_karangtaruna_go
+
    cd karangtaruna_go
+
    php artisan serve
 
 
-2. Instal Filament :
+3. Instal Filament :
 
    composer require filament/filament:"^3.3" -W
    php artisan filament:install --panels
