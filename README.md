@@ -68,7 +68,10 @@
 Filament adalah admin panel framework modern berbasis Laravel, yang memungkinkan kamu membuat CRUD (Create, Read, Update, Delete) dan manajemen data dengan cepat, elegan, dan powerful — tanpa harus membuat UI manual.
 
 🔧 Kenapa Pakai Filament?
+
 ✅ Mempermudah saya membangun dashboard untuk karangtaruna Go
+
 ✅ Dibuat untuk Laravel
+
 ✅ Bisa digunakan untuk admin panel, manajemen data, form interaktif, dll
 
