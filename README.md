@@ -14,6 +14,7 @@
 3. Instal Filament :
 
    composer require filament/filament:"^3.3" -W
+   
    php artisan filament:install --panels
 
 
@@ -22,26 +23,28 @@
 1. Clone Repository
 
    git clone https://github.com/kampusriset/23g_laravel_karangtaruna_go
+   
    cd karangtaruna_go
 
-2. Ambil Update dari Tim
+3. Ambil Update dari Tim
 
    git pull origin main
 
-3. Buat Branch Baru (per fitur/bug)
+4. Buat Branch Baru (per fitur/bug)
 
    git checkout -b fitur-tambah-dokumentasi
 
-4. Lakukan Perubahan, Commit
+5. Lakukan Perubahan, Commit
 
    git add .
+   
    git commit -m "Tambah fitur dokumentasi"
 
-5. Push ke Remote
+7. Push ke Remote
 
    git push origin fitur-tambah-dokumentasi
 
-6. Buat Pull Request di GitHub
+8. Buat Pull Request di GitHub
 
     - Masuk ke GitHub
 
