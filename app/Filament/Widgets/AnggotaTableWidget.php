@@ -1,5 +1,4 @@
 <?php
-// app/Filament/Widgets/AnggotaTableWidget.php (Versi Sederhana)
 
 namespace App\Filament\Widgets;
 
@@ -12,7 +11,9 @@ class AnggotaTableWidget extends BaseWidget
 {
     protected static ?string $heading = 'Daftar Anggota Terbaru';
     protected static ?int $sort = 3;
-    protected int | string | array $columnSpan = [
+
+    // Responsif column span
+    protected int|string|array $columnSpan = [
         'md' => 2,
         'xl' => 3,
     ];
@@ -20,17 +21,17 @@ class AnggotaTableWidget extends BaseWidget
     public function table(Table $table): Table
     {
         return $table
-            ->query(
-                Anggota::query()->latest()->limit(5)
-            )
+            ->query(Anggota::query()->latest()->limit(5))
             ->columns([
                 Tables\Columns\TextColumn::make('nama_lengkap')
                     ->label('Nama Lengkap')
                     ->searchable()
                     ->sortable(),
+
                 Tables\Columns\TextColumn::make('jabatan')
                     ->badge()
                     ->color('primary'),
+
                 Tables\Columns\BadgeColumn::make('gender')
                     ->label('Gender')
                     ->colors([
@@ -38,6 +39,7 @@ class AnggotaTableWidget extends BaseWidget
                         'success' => 'F',
                     ])
                     ->formatStateUsing(fn (string $state): string => $state === 'M' ? 'L' : 'P'),
+
                 Tables\Columns\BadgeColumn::make('is_active')
                     ->label('Status')
                     ->colors([
@@ -51,4 +53,3 @@ class AnggotaTableWidget extends BaseWidget
             ->defaultSort('created_at', 'desc');
     }
 }
-

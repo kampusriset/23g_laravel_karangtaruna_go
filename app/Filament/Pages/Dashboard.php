@@ -12,6 +12,7 @@ class Dashboard extends BaseDashboard
     public function getWidgets(): array
     {
         return [
+            \App\Filament\Widgets\BannerWidget::class,
             \App\Filament\Widgets\KeuanganStats::class,
             \App\Filament\Widgets\KeuanganChart::class,
         ];

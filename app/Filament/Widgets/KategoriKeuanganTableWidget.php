@@ -21,7 +21,11 @@ class KategoriKeuanganTableWidget extends BaseWidget
     {
         return $table
             ->query(
-                KategoriKeuangan::query()->where('is_active', '1')->latest()->limit(8)
+                KategoriKeuangan::query()
+                ->withCount('pencatatanKeuangan') 
+                ->where('is_active', '1')
+                ->latest()
+                ->limit(8)
             )
             ->columns([
                 Tables\Columns\TextColumn::make('nama_kategori')
@@ -34,11 +38,12 @@ class KategoriKeuanganTableWidget extends BaseWidget
                         'danger' => 'kredit',
                     ])
                     ->formatStateUsing(fn (string $state): string => $state === 'debit' ? 'Pemasukan' : 'Pengeluaran'),
-                Tables\Columns\TextColumn::make('pencatatanKeuangan_count')
+                Tables\Columns\TextColumn::make('pencatatan_keuangan_count')
                     ->label('Transaksi')
                     ->counts('pencatatanKeuangan')
                     ->badge()
-                    ->color('warning'),
+                    ->color('warning')
+                    ->formatStateUsing(fn ($state) => $state ?? 0),
             ])
             ->paginated(false)
             ->searchable(false);

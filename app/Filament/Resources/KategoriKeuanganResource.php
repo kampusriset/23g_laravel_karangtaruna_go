@@ -70,9 +70,10 @@ class KategoriKeuanganResource extends Resource
                         'danger' => '0',
                     ])
                     ->formatStateUsing(fn (string $state): string => $state === '1' ? 'Aktif' : 'Tidak Aktif'),
-                Tables\Columns\TextColumn::make('pencatatanKeuangan_count')
+                Tables\Columns\TextColumn::make('pencatatan_keuangan_count')
                     ->label('Jumlah Transaksi')
-                    ->counts('pencatatanKeuangan'),
+                    ->counts('pencatatanKeuangan')
+                    ->sortable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Dibuat')
                     ->dateTime()
@@ -102,6 +103,12 @@ class KategoriKeuanganResource extends Resource
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
             ]);
+    }
+
+    // Override getEloquentQuery untuk include withCount
+    public static function getEloquentQuery(): \Illuminate\Database\Eloquent\Builder
+    {
+        return parent::getEloquentQuery()->withCount('pencatatanKeuangan');
     }
 
     public static function getPages(): array
