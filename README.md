@@ -1,7 +1,7 @@
 <p align="center">
  <h2 align="center">KarangTarunaGO</h2>
  <p align="center">Manajemen Kegiatan Pemuda Dusun</p>
-<img align="center" src="public/images/banner.jpg" alt="KarangTarunaGO" width="600px"/>
+ <img src="https://raw.githubusercontent.com/kampusriset/23g_laravel_karangtaruna_go/main/public/images/banner.jpg" alt="KarangTarunaGO" width="600px" />
 </p>
 
 > [!NOTE]\
