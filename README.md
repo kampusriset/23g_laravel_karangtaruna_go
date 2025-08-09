@@ -4,13 +4,24 @@
  <img src="https://raw.githubusercontent.com/kampusriset/23g_laravel_karangtaruna_go/main/public/images/banner.jpg" alt="KarangTarunaGO" width="600px" />
 </p>
 
+#### kebutuhan fungsionalitas
+
+- mendata anggota, dan membuat akun
+- mencatat agenda karang taruna
+- mengkategori pemasukan dan pengeluaran
+- mencatat pemasukan dan pengeluaran
+
+#### Mengunakan Teknologi
+
+Pada projek KarangTarunaGo: Manajemen Kegiatan Pemuda Dusun mengunakan teknoligi laravel 12 dan Filament dengan fitur sebagai berikut (`Dashboard`, `Agenda Kegiatan`, `Data Anggota`, `Kategori Keuangan`, `Pencatatan Keuangan`).
+
 > [!NOTE]\
-> Laravel
+#### Laravel
 > Framework PHP yang populer untuk membangun aplikasi web modern dengan arsitektur MVC (Model-View-Controller). Laravel menyediakan sintaks yang elegan, fitur bawaan seperti routing, autentikasi, dan ORM Eloquent untuk mempermudah pengembangan aplikasi.
 > A popular PHP framework for building modern web applications using the MVC (Model-View-Controller) architecture. Laravel offers elegant syntax and built-in features such as routing, authentication, and the Eloquent ORM to simplify application development.
 
 > [!NOTE]\
-> Filament
+#### Filament
 > Paket (package) Laravel berbasis PHP yang menyediakan antarmuka admin modern, responsif, dan mudah digunakan untuk mengelola data aplikasi. Filament memiliki komponen siap pakai seperti tabel, formulir, dan grafik, serta dapat dikustomisasi sesuai kebutuhan proyek.
 > A PHP package for Laravel that provides a modern, responsive, and easy-to-use admin interface for managing application data. Filament includes ready-to-use components such as tables, forms, and charts, and can be customized to fit project needs.
 
@@ -53,9 +64,6 @@ Tampilan projek :
 
 <img src="public/images/pencatatankeuangan.png" alt="KarangTarunaGO" width="600px"/>
 
-#### Mengunakan Teknologi
-
-Pada projek KarangTarunaGo: Manajemen Kegiatan Pemuda Dusun mengunakan teknoligi laravel 12 dan Filament dengan fitur sebagai berikut (`Dashboard`, `Agenda Kegiatan`, `Data Anggota`, `Kategori Keuangan`, `Pencatatan Keuangan`).
 
 #### Tabel keunggulan dan kekurangan Filament
 
