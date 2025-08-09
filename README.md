@@ -77,4 +77,4 @@ Thanks! :heart:
 ---
 
 [![Laravel](https://laravel.com/img/logomark.min.svg)](https://laravel.com)
-[![Filament](https://filamentphp.com/images/logo.svg)](https://filamentphp.com)
+[![Filament](https://shop.filamentphp.com/cdn/shop/products/kiss-cut-stickers-5.5x5.5-default-6388cb9b4f472.jpg?v=1669909410)](https://filamentphp.com)
