@@ -76,5 +76,5 @@ Thanks! :heart:
 
 ---
 
-[![https://laravel.com/]](https://laravel.com/)
-[![https://filamentphp.com/]](https://filamentphp.com/)
+[![Laravel](https://laravel.com/img/logomark.min.svg)](https://laravel.com)
+[![Filament](https://filamentphp.com/images/logo.svg)](https://filamentphp.com)
