@@ -42,6 +42,7 @@ php artisan serve
 ### Tampilan
 
 Tampilan projek :
+
 <img src="public/images/Dashboard1.png" alt="KarangTarunaGO" width="600px"/>
 
 <img src="public/images/Dashboard2.png" alt="KarangTarunaGO" width="600px"/>
