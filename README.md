@@ -1,5 +1,5 @@
 <p align="center">
-<img src="public/images/Logo.jpg" alt="KarangTarunaGO" width="600px"/>
+<img src="public/images/Logo1.jpg" alt="KarangTarunaGO" width="600px"/>
     
 <p align="center">
     <a href="https://laravel.com"><img alt="Laravel v11+" src="https://img.shields.io/badge/Laravel-v11+-FF2D20?style=for-the-badge&logo=laravel"></a>
