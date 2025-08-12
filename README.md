@@ -11,11 +11,13 @@
 
 
 >Laravel
+
 [!NOTE]\
 > Framework PHP yang populer untuk membangun aplikasi web modern dengan arsitektur MVC (Model-View-Controller). Laravel menyediakan sintaks yang elegan, fitur bawaan seperti routing, autentikasi, dan ORM Eloquent untuk mempermudah pengembangan aplikasi.
 > A popular PHP framework for building modern web applications using the MVC (Model-View-Controller) architecture. Laravel offers elegant syntax and built-in features such as routing, authentication, and the Eloquent ORM to simplify application development.
 
 Filament
+
 [!NOTE]\
 > Paket (package) Laravel berbasis PHP yang menyediakan antarmuka admin modern, responsif, dan mudah digunakan untuk mengelola data aplikasi. Filament memiliki komponen siap pakai seperti tabel, formulir, dan grafik, serta dapat dikustomisasi sesuai kebutuhan proyek.
 > A PHP package for Laravel that provides a modern, responsive, and easy-to-use admin interface for managing application data. Filament includes ready-to-use components such as tables, forms, and charts, and can be customized to fit project needs.
