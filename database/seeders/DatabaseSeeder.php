@@ -61,5 +61,9 @@ class DatabaseSeeder extends Seeder
             'is_active' => '1',
             'status_uang' => 'kredit',
         ]);
+        $this->call([
+            DokumentasiSeeder::class,
+            DiskusiSeeder::class,
+        ]);
     }
 }
